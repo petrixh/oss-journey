@@ -16,7 +16,7 @@
 		"vscode": {
 			"extensions": [
 				"vscjava.vscode-java-pack",
-				"vaadin.vaadin-vscode"
+				"vaadin.vaadin-vscode@1.1.8"
 			],
 			"settings": {
 				"java.server.launchMode": "Standard"
