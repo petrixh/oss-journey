@@ -3,7 +3,9 @@
 {
 	"name": "Java",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "ghcr.io/petrixh/oss-journey-container:sha-f564d2b",
+	// "image": "ghcr.io/petrixh/oss-journey-container:sha-f564d2b", 
+	// and use "vaadin.vaadin-vscode@1.1.8" to pin the Vaadin pugin version
+	"image": "ghcr.io/petrixh/oss-journey-container:latest",
 
 	"features": {
 		"ghcr.io/devcontainers/features/java:1": {
@@ -16,7 +18,7 @@
 		"vscode": {
 			"extensions": [
 				"vscjava.vscode-java-pack",
-				"vaadin.vaadin-vscode@1.1.8"
+				"vaadin.vaadin-vscode"
 			],
 			"settings": {
 				"java.server.launchMode": "Standard"
